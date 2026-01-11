@@ -22,7 +22,7 @@ This project analyzes tensor decompositions for matrix multiplication, specifica
 python3 compute_entanglement_rank.py
 ```
 
-This processes all square tensors (e.g., 2×2×2, 3×3×3, etc.) from the factorizations file and outputs:
+This processes any matrix multiplication tensor from the factorizations file and outputs:
 - Matrix dimension (T)
 - CP-rank
 - G_i histogram (distribution of subproduct column support)
